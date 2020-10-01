@@ -1,0 +1,21 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.field {
+  text-align: center;
+  border: 5px solid gold;
+
+  padding: 70px;
+
+  font-size: 40px;
+
+  background-color: violet;
+}
+
+.field:not(:last-child) {
+  margin-right: 5px;
+}
